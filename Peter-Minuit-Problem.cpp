@@ -28,8 +28,7 @@ int main()
 
             date++;
             amount = principal * pow(1 + rate, year);
-            cout << setw(4) << date << setw(8) << year << setw(8)
-                 << rate << setw(20) << amount << endl;
+            cout << setw(4) << date << setw(8) << year << setw(8) << rate << setw(20) << amount << endl;
         }
     }
 }
